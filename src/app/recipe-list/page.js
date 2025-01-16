@@ -8,7 +8,7 @@ import RecipeList from "@/components/recipe-list"
                 return result?.recipes;
         }catch(err){ 
             console.log(err)
-            throw new Error(e)
+            throw new Error(err)
         }
     }
 

@@ -32,7 +32,7 @@ const RecipeDetailsItem = ({recipeDetails}) => {
                             <ul className='space-y-3 list-disc mt-4 pl-4 text-sm text-gray-700'>
                                 {
 
-                                    recipeDetails?.ingredients.map(item =>(
+                                    recipeDetails?.ingredients?.map(item =>(
                                         <li>{item}</li>
                                     ))
                                 }
